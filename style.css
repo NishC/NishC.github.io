@@ -26,10 +26,14 @@ h2, h4{
 
 .resume{
 	color: white;
-	font-size: 20px;
+    font-size: 20px;
 }
 
-
+.resume:hover{
+    /*color: white;*/
+    /*font-size: 20px;*/
+    text-decoration: none;
+}
 
 .vertical-center {
   min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
@@ -43,7 +47,8 @@ h2, h4{
 @media (min-width: 769px) {
 	
 body {
-	background-image: url(big.jpg);
+	/*background-image: url(big.jpg);*/
+    background: linear-gradient(to bottom right, #0024F9 40%, #22BC03);
 	background-repeat: no-repeat;
 	background-size: cover;
   background-position: right;
@@ -54,7 +59,7 @@ body {
 }}
 @media (max-width: 768px) {
 body {
-	background-image: url(small.jpg) !important;
+	background: linear-gradient(to bottom right, #0024F9, #22BC03);
 	background-position: 0% 0%;
 	background-repeat: no-repeat;
 	background-size: cover;
